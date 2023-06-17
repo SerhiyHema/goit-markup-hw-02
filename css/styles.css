@@ -108,7 +108,7 @@ button {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
     color: var(--main-light-cl);
     text-align: center;
 }
@@ -119,8 +119,11 @@ button {
     line-height: 1.5;
     color: var(--main-light-cl);
     background-color: #4D5AE5;
+    letter-spacing: 0.04em;
     }
-.hero-btn:hover{
+.hero-btn:hover,
+.hero-btn:focus
+{
     background-color: #404BBF;
 }
 
