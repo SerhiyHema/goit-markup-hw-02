@@ -100,14 +100,10 @@ button {
 
 .header-contacts-tel {}
 
-.header-contacts-mail:hover{
+.header-contacts-mail:hover,
+.header-contacts-mail:focus{
     color: #404BBF;
 }
-
-.header-contacts-link:focus {
-    color: #404BBF;
-}
-
 
 
 /*hero*/
