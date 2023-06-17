@@ -7,16 +7,14 @@
     --main-dark-cl: #111111;
     --main-light-cl: #ffffff;
    
-.page {
-    font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color:#FFFFFF;
-    }
-
     /* Others */
 }
 /*common styles*/
-
+.page {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
 /* Reset */
 .list,
 ul,
@@ -173,7 +171,7 @@ button {
     color: #4D5AE5;
     background-color: #F4F4FD;
     }
-    
+
 .portfolio-btn:focus {
     background-color: #404BBF;
 }
