@@ -151,17 +151,16 @@ button {
 /*two*/
 .two-section {}
 
-.two-section-title {    
+.section-title {    
     font-weight: 700;
     font-size: 36px;
+    letter-spacing: 0.02em;
     line-height: 1.11;
     color: #2E2F42;
     text-align: center;
     text-transform: capitalize; 
 }
-.section-title {
-    letter-spacing: 0.02em;
-}
+.section-title {}
 
 /*three*/
 .three-section {
