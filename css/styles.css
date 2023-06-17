@@ -61,12 +61,17 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--accent-cl);
+    text-decoration: none;
 }
 
 .header-item {}
 
 .header-link {
-    text-decoration: none;   
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--accent-cl);
 }
 
 .header-link:hover {
@@ -97,14 +102,12 @@ button {
 .header-contacts-mail:hover{
     color: #404BBF;
 }
-
 .header-contacts-tel:hover {
     color: #404BBF;
 }
 .header-contacts-mail:focus {
     color: #404BBF;
 }
-
 .header-contacts-tel:focus {
     color: #404BBF;
 }
