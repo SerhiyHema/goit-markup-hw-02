@@ -159,10 +159,11 @@ button {
     line-height: 1.11;
     color: #2E2F42;
     text-align: center;
-    letter-spacing: 0.02em;
     text-transform: capitalize; 
 }
-.section-title {}
+.two-list {
+    letter-spacing: 0.02em;
+}
 
 /*three*/
 .three-section {
