@@ -103,16 +103,12 @@ button {
 .header-contacts-mail:hover{
     color: #404BBF;
 }
-.header-contacts-tel:hover {
-    color: #404BBF;
-}
+
 .header-contacts-mail:focus {
     color: #404BBF;
 }
 
-.header-contacts-tel:focus {
-    color: #404BBF;
-}
+
 
 /*hero*/
 .hero-section {
