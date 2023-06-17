@@ -73,8 +73,8 @@ button {
     color: var(--accent-cl);
 }
 
-.header-link:hover,
-.header-link:focus
+.header .link:hover,
+.header .link:focus
 {
     color: #404BBF;
 }
