@@ -73,14 +73,12 @@ button {
     color: var(--accent-cl);
 }
 
-.header-link:hover {
+.header-link:hover,
+.header-link:focus
+{
     color: #404BBF;
 }
-       
-.header-link:focus {
-    color: #404BBF;
-}
-
+ 
 .address {
     font-style: normal;
     line-height: 1.5;
@@ -99,11 +97,6 @@ button {
 .header-contacts-link {}
 
 .header-contacts-tel {}
-
-.header-contacts-mail:hover,
-.header-contacts-mail:focus{
-    color: #404BBF;
-}
 
 
 /*hero*/
