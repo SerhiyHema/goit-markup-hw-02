@@ -84,6 +84,8 @@ button {
 
 .address {
     font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em
 }
 .address-list {
     font-weight: 400;
@@ -105,10 +107,10 @@ button {
 .header-contacts-tel:hover {
     color: #404BBF;
 }
-.header-contacts-mail:focus {
+.header-contacts-mail-link:focus {
     color: #404BBF;
 }
-.header-contacts-tel:focus {
+.header-contacts-tel-link:focus {
     color: #404BBF;
 }
 
