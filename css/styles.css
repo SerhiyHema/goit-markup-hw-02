@@ -165,10 +165,11 @@ button {
 }
 
 /*three*/
-.three-section {}
+.three-section {
+    background-color: #F4F4FD;
+}
 
 .section-title {
-    background-color: #F4F4FD;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
