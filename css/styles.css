@@ -6,7 +6,12 @@
     /* Colors */
     --main-dark-cl: #111111;
     --main-light-cl: #ffffff;
-    
+   
+.page {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color:#FFFFFF;
+    }
 
     /* Others */
 }
@@ -102,8 +107,7 @@ button {
     line-height: 1.5;
     color: var(--main-light-cl);
     background-color: #4D5AE5;
-    align-items: center;
-}
+    }
 .hero-btn:hover{
     background-color: #404BBF;
 }
@@ -168,9 +172,8 @@ button {
     line-height: 1.5;
     color: #4D5AE5;
     background-color: #F4F4FD;
-    align-items: center;
+    }
     
-}
 .portfolio-btn:focus {
     background-color: #404BBF;
 }
