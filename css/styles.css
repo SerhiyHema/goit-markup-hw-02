@@ -144,12 +144,7 @@ button {
     
 }
 
-.spdt-desc {
-    font-size: 16px;
-    line-height: 1.5px;
-    letter-spacing: 0.02em;
-    color: var(--accent-hh);
-}
+.spdt-desc {}
 
 /*two*/
 .two-section {}
@@ -158,6 +153,7 @@ button {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    letter-spacing: 0.02em;
     color: #2E2F42;
     text-align: center;
     text-transform: capitalize;
