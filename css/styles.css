@@ -8,6 +8,8 @@
     --main-light-cl: #ffffff;
     --accent-cl: #2e2f42;
     --accent-hh: #434455;
+    --accent-bt: #4D5AE5;
+    --accent-btbg: #F4F4FD;
    
     /* Others */
 }
@@ -48,7 +50,7 @@ button {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: var(--accent-bt);
 }
 
 .logo-durkground {
@@ -119,7 +121,7 @@ button {
     font-size: 16px;
     line-height: 1.5;
     color: var(--main-light-cl);
-    background-color: #4D5AE5;
+    background-color: var(--accent-bt);
     letter-spacing: 0.04em;
     }
 .hero-btn:hover,
@@ -170,7 +172,7 @@ button {
 
 /*three*/
 .three-section {
-    background-color: #F4F4FD;
+    background-color: var(--accent-btbg)
 }
 
 .section-title {
@@ -203,15 +205,20 @@ button {
 /*portfolio*/
 .section-portfolio {}
 
-.portfolio-btn {
+.portfolio-btn-one {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    color: #4D5AE5;
-    background-color: #F4F4FD;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    color: var(--accent-bt);
+    background-color: var(--accent-btbg)
     }
 
-.portfolio-btn:focus {
+.portfolio-btn-one:hover,
+.portfolio-btn-one:focus {
+    color: #FFFFFF;
     background-color: #404BBF;
 }
 
