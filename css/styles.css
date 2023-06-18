@@ -1,271 +1,278 @@
 :root {
-    /* Font */
-    --primary-font: Roboto, sans-serif;
-    --secondary-font: Raleway, sans-serif;
+  /* Font */
+  --primary-font: Roboto, sans-serif;
+  --secondary-font: Raleway, sans-serif;
 
-    /* Colors */
-    --main-dark-cl: #111111;
-    --main-light-cl: #ffffff;
-    --accent-cl: #2e2f42;
-    --accent-hh: #434455;
-    --accent-bt: #4D5AE5;
-    --accent-btbg: #F4F4FD;
-   
-    /* Others */
+  /* Colors */
+  --main-dark-cl: #111111;
+  --main-light-cl: #ffffff;
+  --accent-cl: #2e2f42;
+  --accent-hh: #434455;
+  --accent-bt: #4d5ae5;
+  --accent-btbg: #f4f4fd;
+
+  /* Others */
 }
 /*common styles*/
 .page {
-    font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 /* Reset */
 .list,
 ul,
 ol {
-    list-style: none;
+  list-style: none;
 }
 
 .link,
 a {
-    text-decoration: none;
-    color: currentColor;
+  color: currentColor;
+  text-decoration: none;
 }
 
 .btn,
 button {
-    font-family: inherit;
-    cursor: pointer;
+  font-family: inherit;
+  cursor: pointer;
 }
 
 /*header*/
-.header {}
+.header {
+}
 
-.header-nav {}
+.header-nav {
+}
 
 .header-logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--accent-bt);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--accent-bt);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .logo-durkground {
-    color: #2E2F42;
+  color: #2e2f42;
 }
 
 .header-list {
-    list-style: none;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--accent-cl);
-    text-decoration: none;
+  list-style: none;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--accent-cl);
+  text-decoration: none;
 }
 
-.header-item {}
+.header-item {
+}
 
 .header-link {
-    text-decoration: none;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--accent-cl);
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--accent-cl);
 }
 
 .header .link:hover,
-.header .link:focus
-{
-    color: #404BBF;
+.header .link:focus {
+  color: #404bbf;
 }
- 
+
 .address {
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: 0.02em
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .address-list {
-    font-weight: 400;
-    color: #434455;
-    list-style: none;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+  font-weight: 400;
+
+  list-style: none;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
-.header-contacts-mail {}
+.header-contacts-mail {
+}
 
-.header-contacts-link {}
+.header-contacts-link {
+}
 
-.header-contacts-tel {}
-
+.header-contacts-tel {
+}
 
 /*hero*/
 .hero-section {
-    background: #2E2F42;
+  background: #2e2f42;
 }
 
 .hero-title {
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    color: var(--main-light-cl);
-    text-align: center;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: var(--main-light-cl);
+  text-align: center;
 }
 
 .hero-btn {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    color: var(--main-light-cl);
-    background-color: var(--accent-bt);
-    letter-spacing: 0.04em;
-    }
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--main-light-cl);
+  background-color: var(--accent-bt);
+  letter-spacing: 0.04em;
+}
 .hero-btn:hover,
-.hero-btn:focus
-{
-    background-color: #404BBF;
+.hero-btn:focus {
+  background-color: #404bbf;
 }
 
 /*one*/
-.one-section {}
+.one-section {
+}
 
 .one-section-list {
-    list-style: none;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2px;
-    letter-spacing: 0.02em;
-    color: var(--accent-cl);
+  list-style: none;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2px;
+  letter-spacing: 0.02em;
+  color: var(--accent-cl);
 }
 .one-item {
-    list-style: none;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2px;
-    letter-spacing: 0.02em;
-    color: var(--accent-cl);
+  list-style: none;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2px;
+  letter-spacing: 0.02em;
+  color: var(--accent-cl);
 }
 
 .subtitle-spdt {
-    
 }
 
-.spdt-desc {}
+.spdt-desc {
+}
 
 /*two*/
-.two-section {}
-
-.section-title {    
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-    text-align: center;
-    text-transform: capitalize;
-}
-.two-list {}
-
-/*three*/
-.three-section {
-    background-color: var(--accent-btbg)
+.two-section {
 }
 
 .section-title {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: var(--accent-cl);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-align: center;
+  text-transform: capitalize;
+}
+.two-list {
+}
+
+/*three*/
+.three-section {
+  background-color: var(--accent-btbg);
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--accent-cl);
 }
 
 .subtitle-team {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .team-desc {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 .three-item {
-    background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 /*portfolio*/
-.section-portfolio {}
+.section-portfolio {
+}
 
 .portfolio-btn-one {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    cursor: pointer;
-    color: var(--accent-bt);
-    background-color: var(--accent-btbg)
-    }
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: var(--accent-bt);
+  background-color: var(--accent-btbg);
+}
 
 .portfolio-btn-one:hover,
 .portfolio-btn-one:focus {
-    color: #FFFFFF;
-    background-color: #404BBF;
+  color: #ffffff;
+  background-color: #404bbf;
 }
 
 .portfolio-img-list {
-    list-style: none;
+  list-style: none;
 }
 
 .portfolio-img-link {
-    text-decoration: none;
-
+  text-decoration: none;
 }
 
 .portfolio-subtitle {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    line-height: 1.5;
-    color: var(--accent-cl);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  color: var(--accent-cl);
 }
 
 .portfolio-par {
-    font-size: 16px;
-    letter-spacing: 0.02em;
-    color: var(--accent-hh);
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: var(--accent-hh);
 }
 
 /*footer*/
 .footer {
-    background: #2E2F42;
+  background: #2e2f42;
 }
 
 .footer-logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4D5AE5;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 
 .logo-lightground {
-    color: #F4F4FD;
+  color: #f4f4fd;
 }
 .footer-text {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #F4F4FD;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
