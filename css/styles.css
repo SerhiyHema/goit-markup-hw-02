@@ -135,16 +135,16 @@ button {
 }
 
 /*one*/
-.one-section {
+.onesection {
 }
 
-.one-section-list {
+.onesection-list {
   list-style: none;
 }
-.one-section-item {
+.onesection-item {
 }
 
-.subtitle-spdt {
+.onesection-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2px;
@@ -152,7 +152,7 @@ button {
   color: var(--accent-cl);
 }
 
-.spdt-desc {
+.onesection-desc {
   font-size: 16px;
   line-height: 1.5px;
   letter-spacing: 0.02em;
